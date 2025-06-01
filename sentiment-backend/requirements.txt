@@ -1,0 +1,15 @@
+# Framework principal
+Django
+djangorestframework
+
+# Análisis de sentimientos
+textblob
+
+# Para recolectar comentarios de Twitter
+tweepy
+
+# Para descargar corpus de TextBlob
+nltk
+
+# Soporte para UTF y caracteres especiales
+unidecode
