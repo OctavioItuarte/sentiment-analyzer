@@ -1,4 +1,4 @@
-# Sentiment Analyzer – Análisis de Sentimientos con Django + React
+# Sentiment Analyzer – Análisis de Sentimientos
 
 Este proyecto permite ingresar comentarios sobre una figura pública y obtener un análisis de sentimiento (positivo, negativo, neutral) usando inteligencia artificial.
 
