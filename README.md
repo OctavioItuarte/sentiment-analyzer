@@ -1,15 +1,7 @@
 # Sentiment Analyzer – Análisis de Sentimientos
 
-Este proyecto permite ingresar comentarios sobre una figura pública y obtener un análisis de sentimiento (positivo, negativo, neutral) usando inteligencia artificial.
-
----
-
-## Tecnologías utilizadas
-
-- **Backend**: Django + Django REST Framework
-- **Frontend**: React + Vite + TailwindCSS
-- **IA**: Análisis de sentimiento con TextBlob
-- **API**: Comunicación vía REST
+Proyecto de analisis de sentimientos usando la libreria de Python TextBlob. Clasifica los comentarios acerca de un sujeto en positivos, neutros o negativos.
+Implementacion con Django en el backend y React + Taildwind en el frontend.
 
 ---
 
@@ -44,22 +36,8 @@ npm run dev
 
 Disponible en: `http://localhost:5173`
 
----
-
-## Funcionalidades
-
-- Ingresar comentarios (uno por línea)
-- Especificar nombre de figura pública
-- Visualizar resultados:
-  - Total de comentarios analizados
-  - Porcentaje de positivos/negativos/neutrales
-  - Comentarios más positivos y negativos destacados
-
----
-
 ## Mejoras futuras
 
-- Autenticación de usuarios
 - Exportar resultados en CSV
 - Integración con redes sociales para obtener comentarios automáticamente
 - Modelos de IA más avanzados (BERT, Transformers)
